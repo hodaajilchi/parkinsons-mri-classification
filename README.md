@@ -8,8 +8,7 @@ Only minimal, anonymized example images are included to ensure data privacy and 
 
 System Flowchart:
 
-<img width="831" height="855" alt="image" src="https://github.com/user-attachments/assets/f2042e7a-7e01-4208-97dd-87938d70758c" />
-
+![Figure 1](https://github.com/user-attachments/assets/a28fd54f-785c-4a7f-9822-9620910d0677)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -149,11 +148,6 @@ Results:
 The experimental results reported in the paper show that Method 3
 (outlined in this repository) achieved the best performance with an
 accuracy of 99.61%.
-
-- Accuracy: 99.61%
-- Precision: 99.61%
-- Recall: 99.61%
-- F1-score: 99.61%
 
 For full quantitative results, comparisons, and analysis, please refer
 to the published article.
