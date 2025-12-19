@@ -1,0 +1,41 @@
+name: parkinsons-mri-classification
+
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.9
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+
+  # Deep Learning (PyTorch / FastAI)
+- pytorch>=1.13
+- torchvision>=0.14
+  - cudatoolkit=11.8  # remove if using CPU-only
+  - fastai
+
+  # TensorFlow (Method 1)
+  - tensorflow=2.10.*
+ - h5py (Method 1)
+ 
+  # Utilities
+  - opencv
+  - tqdm
+  - pillow
+
+  # Jupyter (optional, but professional)
+  - jupyter
+  - ipykernel
+
+  # pip-only packages
+  - pip
+  - pip:
+      - seaborn
+      
+ 
