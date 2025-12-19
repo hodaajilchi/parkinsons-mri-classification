@@ -1,5 +1,5 @@
 # parkinsons-mri-classification
-MRI-based Parkinson’s disease classification using CNN ensembles and FastAI with FSL preprocessing
+
 
 This repository provides a reproducible and ethically compliant deep learning framework for classifying brain MRI slices into Healthy and Mild Cognitive Impairment (MCI) categories, corresponding to the prodromal stage of Parkinson’s disease.
 The project implements and compares three classification pipelines based on different modeling and preprocessing strategies.
