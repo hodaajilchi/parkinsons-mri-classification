@@ -14,7 +14,7 @@ FSL preprocessing was applied **only in Methods 2 and 3**.
 
 - Raw T1-weighted MRI scans  
 - Format: NIfTI (`.nii` or `.nii.gz`)
-- 
+
 ## Image Reorientation and Spatial Normalization
 
 All MRI volumes were reoriented to standard anatomical orientation using `fslreorient2std` and subsequently registered to the MNI152 template using FLIRT. This step ensured consistent anatomical alignment across subjects and enabled atlas-guided region-of-interest (ROI) identification.
